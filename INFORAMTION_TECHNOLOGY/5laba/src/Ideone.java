@@ -127,7 +127,7 @@ class BinarySearchTree <Key extends Comparable<Key>, Value> {
  
 class Ideone {
 	public static void main (String[] args) {
-		System.out.println("Введите число для поиска!");
+		System.out.println("Введите число для поиска:");
 		BinarySearchTree<Integer, Integer> a = new BinarySearchTree<Integer, Integer>();
 		int n = 80;
 		for(int i = 0; i < n; i++) {
