@@ -119,7 +119,7 @@ class BinarySearchTree <Key extends Comparable<Key>, Value> {
 		System.out.println("Число не найдено");
 		
 	}else {
-		System.out.println("Число найдено!");
+		System.out.println("Число найдено! ");
 		System.out.println("Число узлов: "+Mylevel);
 	}
 	}
